@@ -3,10 +3,9 @@
 ## Install
 
 -   set absolute path to sqlite file in .env
--   php artisan migrate
--   php artisan db:seed
 -   composer install
 -   npm install
+-   php artisan migrate:fresh --seed
 -   npm run dev
 -   php artisan serve
 
