@@ -1,4 +1,4 @@
-# Simple form with email delivery and database
+# Simple form with email delivery and sqlite for demo purpose
 
 ## Install
 
@@ -13,6 +13,5 @@
 
 ## Functionality
 
--   After filling out the form, a new user entry will be created in a sqlite database
--   Sending of a confirmation email (here in laravel.log)
--   Show of a success message
+-   After filling out the form, a new user will be created in a sqlite db with a success message.
+-   Sending a confirmation email in storage/logs/laravel.log.
